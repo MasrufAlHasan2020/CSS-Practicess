@@ -1,0 +1,33 @@
+body {
+  /*
+   background-color: rgb(137, 230, 199,0.7);
+  background-image: url(../Module-2/Images/photo-1434394354979-a235cd36269d.avif);
+  background-repeat:no-repeat;
+  background-attachment:fixed ;
+  background-position:bottom left;
+  background-size: cover;
+  height: 800px;
+   */
+  background: rgb(137, 230, 199, 0.7)
+    url(../Module-2/Images/photo-1434394354979-a235cd36269d.avif) no-repeat
+    fixed right top /cover;
+}
+
+#focus {
+  text-align: center;
+}
+h1 {
+  color: rgb(251, 251, 255);
+  text-align: center;
+  background-color: rgb(3, 122, 241);
+  padding: 8px;
+  border-radius: 1rem;
+}
+.bg-color,
+h2 {
+  background-color: rgba(243, 235, 222, 0.6);
+  color: rgb(87, 1, 1);
+  border-radius: 0.5rem;
+  padding: 10px;
+  margin: 5px;
+}

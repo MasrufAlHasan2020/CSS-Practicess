@@ -1,0 +1,55 @@
+h1 {
+  color: blue;
+  text-align: center;
+  background-color: rgb(132, 204, 17);
+  border: 1px solid blue;
+  border-radius: 0.5rem;
+  margin: 20px;
+}
+p {
+  color: rgb(231, 6, 130);
+  text-align: center;
+  background-color: yellow;
+  border: 1px solid red;
+  border-radius: 1rem;
+  padding: 5px;
+  margin: 20px;
+}
+/* id selectors*/
+#para-2 {
+  background-color: blueviolet;
+  color: rgb(245, 244, 248);
+  border: solid black;
+}
+/*..........
+class selectors
+      ...........*/
+.sameStyle {
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+}
+/*-----------
+group selectors
+------------- */
+h2,
+h3,
+div {
+  background-color: #fbbc04;
+  border: solid 2px rgb(113, 83, 221);
+  text-align: center;
+  margin: 10px;
+  border-radius: 1rem;
+}
+div p {
+  color: rgb(218, 11, 200);
+  background-color: rgb(41, 13, 201);
+}
+/* ...........
+specific selector
+............. */
+p.unique {
+  background-color: chocolate;
+  color: blue;
+  border: solid black 3px;
+}
